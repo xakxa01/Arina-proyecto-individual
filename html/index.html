@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- mi css -->
+    <link rel="stylesheet" href="../css/menu.css"> <!-- css principal -->
+    <link rel="stylesheet" href="../color/colores.css"> <!-- colores creados por mi -->
+    <link rel="stylesheet" href="../css/responsive.css"> <!-- modo telefono/table -->
+    <link rel="icon" type="image/png" href="../imagen/m1.png" /> <!-- icono -->
+
+    <!-- css externos -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> <!-- fuente -->
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css"> <!-- bootstrap -->
+    <script src="https://use.fontawesome.com/502b7294a9.js"></script> <!-- fuente de iconos -->
+
+    <title>Arina</title>
+</head>
+
+<body class="bglight">
+
+    <!-- parte principal de la pagina -->
+    <header class="bienvenida">
+        <!-- menu de la pagina -->
+        <nav class="menu cwhite">
+
+            <h2 class="logo cwhite"><a href="#">Arina</a></h2> <!-- logo de la pagina -->
+
+            <div class="col2"></div> <!-- columnas 1 -->
+            <div class="col1"></div> <!-- columnas 2 -->
+
+            <!-- cubre todas las opciones del menu -->
+            <ul class="opciones mt-2">
+                <il><a href="#horario" class="cwhite">Horario</a></il> <!-- boton que te lleva al horario -->
+                <il><a href="#menu" class="cwhite">Menú</a></il> <!-- boton que te lleva al menu de la pagina -->
+                <!-- boton que te lleva a las recetas de la pagina -->
+                <il><a href="index2.html" class="cwhite">Recetas</a></il>
+                <!--  boton que te lleva al formulario de la pagina -->
+                <il><a href="/html/index2.html#formulario" class="cwhite">Formulario</a></il>
+            </ul>
+        </nav>
+
+
+        <img src="../imagen/m1.gif" alt="" class="arina" draggable="false"> <!-- imagen circular -->
+        <!-- frase -->
+        <h2 class="frase cwhite">“El descubrimiento de un nuevo plato es de más provecho para la humanidad que el
+            descubrimiento de una estrella.” <br><br>
+            - Jean Anthelme Brillat-Savarin
+        </h2>
+    </header>
+    <!-- publicidad de eventos -->
+    <seccion class="publicidad1">
+        <div class="line1"></div> <!-- linea lateral -->
+        <div class="p1">
+            <div class="linea4"></div> <!-- borde1 de la parte de publicidad -->
+            <div class="linea3"></div> <!-- borde2 de la parte de publicidad -->
+            <p class="articulo h2">
+                <!-- la publciidad -->
+                Este san valentin viene cargado de amor con nuestro 50% de descuento en nuestros platillos para parejas
+                no te lo pierdas!
+            </p>
+            <!-- logo de la publicidad -->
+            <svg class="tr" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                viewBox="0 0 172 172" style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none" stroke="none"></path>
+                    <g id="original-icon" fill="#ffffff" stroke="none" opacity="0" visibility="hidden">
+                        <path
+                            d="M51.6,24.08c-24.65781,0 -44.72,20.06219 -44.72,44.72c0,50.78031 57.43188,75.84125 76.97,92.1275l2.15,1.8275l2.15,-1.8275c19.53813,-16.28625 76.97,-41.34719 76.97,-92.1275c0,-24.65781 -20.06219,-44.72 -44.72,-44.72c-13.94812,0 -26.20312,6.62469 -34.4,16.6625c-8.19687,-10.03781 -20.45187,-16.6625 -34.4,-16.6625zM51.6,30.96c13.19563,0 24.725,6.7725 31.4975,16.985l2.9025,4.3l2.9025,-4.3c6.7725,-10.2125 18.30188,-16.985 31.4975,-16.985c20.93563,0 37.84,16.90438 37.84,37.84c0,44.37063 -49.5575,67.33531 -72.24,85.2475c-22.6825,-17.91219 -72.24,-40.87687 -72.24,-85.2475c0,-20.93562 16.90438,-37.84 37.84,-37.84z">
+                        </path>
+                    </g>
+                    <g id="subtracted-icon" fill="#ffffff" stroke="none">
+                        <path
+                            d="M86,40.7425c8.19688,-10.03781 20.45188,-16.6625 34.4,-16.6625c24.65781,0 44.72,20.06219 44.72,44.72c0,12.11603 -3.26951,22.76789 -8.51373,32.18575c-2.05418,-1.07405 -4.20852,-1.98017 -6.44448,-2.69982c4.98895,-8.66394 8.07821,-18.40775 8.07821,-29.48593c0,-20.93562 -16.90437,-37.84 -37.84,-37.84c-13.19562,0 -24.725,6.7725 -31.4975,16.985l-2.9025,4.3l-2.9025,-4.3c-6.7725,-10.2125 -18.30187,-16.985 -31.4975,-16.985c-20.93562,0 -37.84,16.90438 -37.84,37.84c0,44.37063 49.5575,67.33531 72.24,85.2475c3.25049,-2.56689 7.05289,-5.23753 11.18225,-8.06006c0.49621,2.37993 1.19902,4.68641 2.08863,6.89963c-4.35269,2.91936 -8.16921,5.58002 -11.12088,8.04043l-2.15,1.8275l-2.15,-1.8275c-19.53812,-16.28625 -76.97,-41.34719 -76.97,-92.1275c0,-24.65781 20.06219,-44.72 44.72,-44.72c13.94813,0 26.20313,6.62469 34.4,16.6625z">
+                        </path>
+                    </g>
+                    <g stroke="none">
+                        <g fill="#ffffff">
+                            <g id="Слой_2"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="Android_x5F_4"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="Android_x5F_5"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="Windows_x5F_8"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="Windows_x5F_10"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="Color"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="IOS"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="IOS_copy">
+                                <path
+                                    d="M137.6,103.2c-18.92,0 -34.4,15.48 -34.4,34.4c0,18.92 15.48,34.4 34.4,34.4c18.92,0 34.4,-15.48 34.4,-34.4c0,-18.92 -15.48,-34.4 -34.4,-34.4zM137.6,165.12c-15.136,0 -27.52,-12.384 -27.52,-27.52c0,-15.136 12.384,-27.52 27.52,-27.52c15.136,0 27.52,12.384 27.52,27.52c0,15.136 -12.384,27.52 -27.52,27.52zM134.16,129.688c0,7.224 15.48,4.472 15.48,16.512c0,8.6 -8.256,9.632 -9.632,9.632v4.816h-3.784v-4.816c-1.376,0 -10.32,-1.032 -10.32,-11.352h6.88c0,1.032 0,5.848 5.16,5.848c4.472,0 4.472,-3.44 4.472,-4.128c0,-7.568 -15.48,-4.472 -15.48,-16.512c0,-7.224 6.536,-9.632 9.632,-9.632v-5.16h3.784v5.16c2.408,0.344 8.944,2.064 8.944,11.008h-6.88c0,-2.064 -0.344,-5.848 -4.472,-5.848c-3.784,0.344 -3.784,3.784 -3.784,4.472z">
+                                </path>
+                            </g>
+                        </g>
+                        <g fill="#000000" opacity="0">
+                            <g id="IOS"
+                                font-family="-apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif"
+                                font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+                            <g id="IOS_copy">
+                                <path
+                                    d="M137.6,96.32c-22.704,0 -41.28,18.576 -41.28,41.28c0,22.704 18.576,41.28 41.28,41.28c22.704,0 41.28,-18.576 41.28,-41.28c0,-22.704 -18.576,-41.28 -41.28,-41.28z">
+                                </path>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M103.2,172v-68.8h68.8v68.8z" id="overlay-drag" fill="#ff0000" stroke="none" opacity="0">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <!-- linea baja -->
+        <div class="linea2"></div>
+    </seccion>
+
+    <!-- horario -->
+
+    <section id="horario">
+        <ul class="lateral">
+            <!-- aqui se almacena la imagen -->
+            <p class="subt display-3">Horario</p> <!-- titulo -->
+            <!-- el horario -->
+            <il class="li1">Lunes a Viernes!</il>
+            <il class="li2 ">07:30 AM | 10:00 PM</il>
+            <il class="li1 ">Sabados & Domingos!</il>
+            <il class="li2 ">08:30 AM | 12:00 PM</il>
+        </ul>
+    </section>
+
+    <!-- menu -->
+
+    <section class="menuo container-fluid flex-colum ">
+        <div class="menuu row">
+            <p class="display-4 m" id="menu">Menú</p> <!-- titulo -->
+            <img src="../icono/iconfinder-icon.svg" class="icono1" draggable="false"> <!-- icono del al lado -->
+        </div>
+
+        <!-- menu de navegacion del menu -->
+        <div class="container-fluid mt ">
+            <div class="nav  nav-pills resp" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <!-- boton para ir a desayuno -->
+                <a class="nav-link bgoro marg text-white" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                    role="tab" aria-controls="v-pills-home" aria-selected="true">Desayuno</a>
+                <!-- boton para ir a comida-->
+                <a class="nav-link bgoro marg text-white" id="v-pills-profile-tab" data-toggle="pill"
+                    href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Comida</a>
+                <!-- boton para ir a cena -->
+                <a class="nav-link bgoro marg text-white" id="v-pills-messages-tab" data-toggle="pill"
+                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cena</a>
+                <!-- boton para ir a postre -->
+                <a class="nav-link bgoro marg text-white" id="v-pills-settings-tab" data-toggle="pill"
+                    href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                    aria-selected="false">Postre</a>
+
+            </div>
+
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <div class="container">
+                        <!-- desayuno -->
+                        <section class="desayuno">
+                            <!-- carta1 -->
+                            <article class="carta1">
+                                <img src="../imagen/i1.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Magnolia Bakery
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        Icónica pastelería y cupcakería neoyorquina que lleva algunos años fascinando al
+                                        público mexicano con sus famosos cup cakes, pies y pasteles.
+                                    </p>
+                                </div>
+                            </article>
+                            <!-- carta2 -->
+                            <article class="carta1">
+                                <img src="../imagen/i5.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Le Pain Quotidien
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-4">
+                                        Los más solicitados son los croque royale de salmón, los chilaquiles verdes con
+                                        pollo y los waffles belgas.
+                                    </p>
+                                </div>
+                            </article>
+                            <!-- carta3 -->
+                            <article class="carta1">
+                                <img src="../imagen/i8.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Le Macaron Boutique
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        el tartine de queso con higo o los parfaits de
+                                        frutos rojos o mango. No olvides al final pecar poquito con una malteada de
+                                        macarones.
+
+                                    </p>
+                                </div>
+                            </article>
+                            <!-- carta4 -->
+                            <article class="carta1">
+                                <img src="../imagen/i7.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Maison Kayser
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        Para el desayuno recomiendo los chilaquiles con pato, huevos españoles en
+                                        cazuela con jamón serrano, pan francés con yogur y frutos rojos.
+                                    </p>
+                                </div>
+                            </article>
+                            <!-- carta5 -->
+                            <article class="carta1">
+                                <img src="../imagen/i9.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        La Lorena
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        no te vayas sin probar el de chocolate relleno de chocolate derretido, el de
+                                        matcha con arándano o el de frambuesa relleno de chocolate blanco.
+                                    </p>
+                                </div>
+                            </article>
+                            <!-- carta6 -->
+                            <article class="carta1">
+                                <img src="../imagen/i10.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Dulcinea
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        Es el espectacular pan francés con frutos rojos, higos, mermelada y pechuga de
+                                        pavo o tocino, manzana verde y cajeta.
+                                    </p>
+                                </div>
+                            </article>
+
+                        </section>
+                    </div>
+                </div>
+
+                <!-- Comida -->
+                <div class="tab-pane fade " id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="container">
+                        <section class="desayuno">
+
+                            <!-- carta1 -->
+                            <article class="carta1">
+                                <img src="../imagen/i11.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Pollo salteado Alice
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub">
+                                        es del Maestro Escoffier, no tengo ni idea de quién era Alice pero si sé que es
+                                        un
+                                        plato maravilloso, delicado y sutil, muy elegante, refinado.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta2 -->
+                            <article class="carta1">
+                                <img src="../imagen/i12.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Pollo cocido a la cazuela con riesling
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        el pollo cocinado a la cazuela con riesling es un autentico manjar, queda
+                                        riquísimo
+                                        y es fácil y cómodo de preparar, apenas da trabajo.
+
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta3 -->
+                            <article class="carta1">
+                                <img src="../imagen/i13.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Corvina con salsa de chile dulce
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub">
+                                        Está rica corvina es una versión de una receta del chef Gordon Ramsey. La he
+                                        sacado
+                                        de su libro“Cocina Conmigo” y ha sido todo un éxito.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta4 -->
+                            <article class="carta1">
+                                <img src="../imagen/i14.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Rodaballo maître d’Hôtel
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        es una receta clásica al mas puro estilo francés, elegante y refinada, la gracia
+                                        de
+                                        esta preparación estriba en la mantequilla “maître d’Hôtel”.
+
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta5 -->
+                            <article class="carta1">
+                                <img src="../imagen/i15.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Bacalao con costra de mahonesa
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub">
+                                        un plato delicioso y refinado que hará las delicias de tus comensales, para
+                                        elaborarlo vamos a seleccionar un bacalao de mucha calidad.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta6 -->
+                            <article class="carta1">
+                                <img src="../imagen/i16.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Medallones de solomillo de cerdo
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        Este es un plato festivo, sencillo y económico. Muy fácil de preparar y con un
+                                        sabor
+                                        excelente, este solomillo con pera esta rico y apetitoso.
+
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- cena -->
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                    <div class="container">
+                        <section class="desayuno">
+                            <!-- carta1 -->
+                            <article class="carta1">
+                                <img src="../imagen/i17.webp" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Pollo relleno de pesto
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub">
+                                        Cuatro ingredientes, pero muchísimo sabor. Servir con una ensalada verde o
+                                        verduras asadas como guarnición. Ve la receta.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta2 -->
+                            <article class="carta1">
+                                <img src="../imagen/i18.webp" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Peras asadas con arándanos
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-4">
+                                        Este platillo dice sofisticación y éxito por donde se le mire. No es un platillo
+                                        principal.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta3 -->
+                            <article class="carta1">
+                                <img src="../imagen/i19.webp" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Piccata de pollo al limón
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub">
+                                        Piccata es un método en el que se saltea la carne y se sirve en una salsa. Esta
+                                        receta de limón y cilantro seguro impresionará.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta4 -->
+                            <article class="carta1">
+                                <img src="../imagen/i20.webp" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Pizza de queso de cabra y miel
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-4">
+                                        La pizza es una de las cosas más fáciles de hacer, pero hazlo aún mejor con
+                                        algunos ingredientes elegantes.
+
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta5 -->
+                            <article class="carta1">
+                                <img src="../imagen/i21.webp" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Beuf Bourguignon
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-5">
+                                        Esta receta de carne lleva bastante tiempo.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta6 -->
+                            <article class="carta1">
+                                <img src="../imagen/i22.webp" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Taquitos de batata y lima
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-5">
+                                        Mucho mejor que los tacos comunes, y además son veganos y sin gluten.
+
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+                <!-- Postre -->
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+                    <div class="container">
+                        <section class="desayuno">
+
+                            <!-- carta1 -->
+                            <article class="carta1">
+                                <img src="../imagen/i24.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Panna Cotta
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub">
+                                        Este postre es bastante bueno y especial. En español
+                                        significa “nata cocida” y está hecho a base de crema de leche, azúcar y
+                                        gelatinizantes.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta2 -->
+                            <article class="carta1">
+                                <img src="../imagen/i29.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Crema de papaya
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        El postre más famoso en Brasil desde 1990, además es sumamente delicioso. Este
+                                        postre esta hecho a base de una crema de papaya.
+
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta3 -->
+                            <article class="carta1">
+                                <img src="../imagen/i25.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Pávlola
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-4">
+                                        Es un postre que transmite dulzura, sin duda. El origen de este postre se lo
+                                        disputan Nueva Zelanda y Australia.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta4 -->
+                            <article class="carta1">
+                                <img src="../imagen/i27.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        El Milhojas
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        Este postre está hecho de masa hojaldre y
+                                        lleva crema pastelera o crema de leche, tal vez ambos si eres fan del dulce. Es
+                                        realmente delicioso.
+
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta5 -->
+                            <article class="carta1">
+                                <img src="../imagen/i26.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Mousse
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub pb-4">
+                                        Este postre también es de origen francés pero muy conocido en otros continentes.
+                                        La preparación es sencilla.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- carta6 -->
+                            <article class="carta1">
+                                <img src="../imagen/i23.jpg" draggable="false" alt="" class="i1">
+                                <div class="descripcion">
+                                    <p class="art">
+                                        Tarta Vianner
+                                    </p>
+                                    <div class="bajo mb-2"></div>
+                                    <p class="arsub ">
+                                        Este postre es básico para una vida feliz. Se ha adaptado a muchos países
+                                        cambiando algunos ingredientes y formas de preparación.
+
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- menu del modo telefono/table -->
+    <ul class="opcionesr mt-2">
+        <il><a href="#horario" class="cwhite"> <!-- boton para ir a horario -->
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52" height="52" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM104.533,114.66667l-23.59983,-23.59983c-1.34733,-1.34733 -2.09983,-3.16767 -2.09983,-5.06683v-35.83333c0,-3.956 3.21067,-7.16667 7.16667,-7.16667v0c3.956,0 7.16667,3.21067 7.16667,7.16667v32.86633l21.5,21.5c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </a></il>
+        <il><a href="#menu" class="cwhite"> <!-- boton para ir a menu -->
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52" height="52" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M43,14.33333v86h14.33333v-71.66667h71.66667v103.91667c0,6.27083 -4.47917,10.75 -10.75,10.75c-6.27083,0 -10.75,-4.47917 -10.75,-10.75c0,-6.27083 4.47917,-10.75 10.75,-10.75v-14.33333h-71.66667c-13.77344,0 -25.08333,11.3099 -25.08333,25.08333c0,13.77344 11.3099,25.08333 25.08333,25.08333h71.66667c13.77344,0 25.08333,-11.3099 25.08333,-25.08333v-118.25zM46.58333,121.83333h49.27083c-1.62369,3.30339 -2.6875,6.83073 -2.6875,10.75c0,3.91927 1.06381,7.44662 2.6875,10.75h-49.27083c-6.27083,0 -10.75,-4.47917 -10.75,-10.75c0,-6.27083 4.47917,-10.75 10.75,-10.75z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </a></il>
+        <h2 class=" cwhite"><a href="#"> <!-- boton para ir a inicio -->
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52" height="52" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#fad13d">
+                            <path
+                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM71.66667,57.33333h28.66667c7.90483,0 14.33333,6.4285 14.33333,14.33333v28.66667c0,7.90483 -6.4285,14.33333 -14.33333,14.33333h-28.66667c-7.90483,0 -14.33333,-6.4285 -14.33333,-14.33333v-28.66667c0,-7.90483 6.4285,-14.33333 14.33333,-14.33333zM71.66667,71.66667v28.66667h28.66667v-28.66667z">
+                            </path>
+                        </g>
+                    </g>
+                </svg></a></h2>
+        <il><a href="index2.html" class="cwhite"> <!-- boton para ir a recetas -->
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52" height="52" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM55.54167,47.41467l1.00333,-1.00333l21.23483,21.23483l-13.62383,13.62383l-8.61433,-8.61433c-6.97317,-6.97317 -6.97317,-18.26783 0,-25.241zM111.69967,121.83333l-25.69967,-25.69967l-25.69967,25.69967l-10.13367,-10.13367l36.27767,-36.27767c-1.30433,-5.934 0.85283,-13.10067 6.28517,-18.533c7.72567,-7.72567 18.99883,-8.97983 25.18367,-2.795c6.17767,6.17767 4.93067,17.458 -2.795,25.18367c-5.43233,5.43233 -12.59183,7.5895 -18.533,6.28517l-0.4515,0.43717l25.69967,25.69967z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </a></il>
+        <il><a href="/html/index2.html#formulario" class="cwhite"> <!-- boton para ir a formulario -->
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52" height="52" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M86,21.5c-15.83216,0 -28.66667,12.8345 -28.66667,28.66667c0,15.83216 12.8345,28.66667 28.66667,28.66667c15.83216,0 28.66667,-12.8345 28.66667,-28.66667c0,-15.83216 -12.8345,-28.66667 -28.66667,-28.66667zM129,86c-23.65,0 -43,19.35 -43,43c0,23.65 19.35,43 43,43c23.65,0 43,-19.35 43,-43c0,-23.65 -19.35,-43 -43,-43zM79.19726,100.66927c-22.64667,1.87767 -57.69726,12.5354 -57.69726,31.91406v17.91667h54.37989c-2.69467,-6.6435 -4.21322,-13.889 -4.21322,-21.5c0,-10.32 2.7576,-19.96723 7.5306,-28.33073zM129,107.5c3.956,0 7.16667,3.21067 7.16667,7.16667v7.16667h7.16667c3.956,0 7.16667,3.21067 7.16667,7.16667c0,3.956 -3.21067,7.16667 -7.16667,7.16667h-7.16667v7.16667c0,3.956 -3.21067,7.16667 -7.16667,7.16667c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-7.16667h-7.16667c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667c0,-3.956 3.21067,-7.16667 7.16667,-7.16667h7.16667v-7.16667c0,-3.956 3.21067,-7.16667 7.16667,-7.16667z">
+                            </path>
+                        </g>
+                    </g>
+                </svg></a></il>
+    </ul>
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    
+</body>
+
+</html>

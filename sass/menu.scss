@@ -1,0 +1,510 @@
+@import "variables";
+@import "colores";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bienvenida {
+    background: url(../imagen/m4.gif);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.arina {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 100%;
+    margin-left: 30vh;
+}
+
+.frase {
+    text-align: left;
+    width: 40%;
+    border-style: dashed;
+    border-bottom: none;
+    margin-left: 20vh;
+    font-weight: normal;
+    padding: 15px;
+    border-color: $blanco;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -70vh;
+    margin-left: 5vh;
+    position: fixed;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.opciones {
+    display: flex;
+    background:#22498d;
+    padding: 1.4vh;
+    font-size: 24.5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    @include sombra;
+
+    a {
+        margin-inline: 0.5vh;
+        transition: 0.2s;
+        padding: 12px;
+    }
+
+    a:hover {
+        color: $amarillo;
+        background: $blanco;
+        text-decoration: none;
+        @include sombra;
+    }
+
+}
+
+.logo {
+    background: $amarillo;
+    padding: 1vh;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Noto Serif', serif;
+    a:hover {
+        text-decoration: none;
+    }
+
+    a {
+        @include cwhite;
+    }
+}
+
+.col1 {
+    @include hw;
+    margin-top: -5px;
+    background: #22498d;
+    @include sombra;
+}
+
+.col2 {
+    @include hw;
+    margin-top: -5px;
+    background: $amarillo;
+}
+
+#horario {
+    background: url(../imagen/m6.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.subt {
+    color: $blanco;
+    border-color: $blanco;
+    border-style: dashed;
+    border-top: none;
+    @include tipo;
+    border-width: 2vh;
+
+}
+
+
+
+.lateral {
+    float: right;
+    width: 45%;
+    height: 100vh;
+    text-align: center;
+    background: url(../imagen/lateral3.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li1 {
+    font: 2.5rem sans-serif;
+    color: $amarillo;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.li2 {
+    color: $blanco;
+    font: 2rem sans-serif;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.line1,
+.linea2 {
+    height: 3vh;
+    background: $azul;
+}
+
+.linea4 {
+    background: $azul;
+    @include hw;
+    height: 50vh;
+    margin-left: -1px;
+}
+
+
+.p1 {
+    background: url(../imagen/m7.jpg);
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.articulo {
+    @include cwhite;
+    @include subtitulo;
+    width: 50%;
+    margin-left: 3vh;
+    margin-right: 10vh;
+
+}
+
+.linea3 {
+    background: $blanco;
+    @include hw;
+    height: 19vh;
+    margin-left: 5vh;
+}
+
+.m {
+    @include tipo;
+    color: $amarillo;
+    margin-right: 2vh;
+}
+
+.menuo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.icono1 {
+    height: 50px;
+    width: 50px;
+}
+
+.b {
+    border-style: solid;
+}
+
+.mt {
+    margin-top: 20vh;
+}
+
+
+.desayuno {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 50px;
+    justify-content: center;
+    overflow: scroll;
+}
+
+
+
+.i1 {
+    border-radius: 5% 5% 0% 0%;
+    width: 300px;
+    height: 300px;
+}
+
+.descripcion {
+    background: $amarillo;
+    padding: 10px;
+}
+
+.bajo {
+    @include bajo;
+}
+
+.bgoro {
+    background: $amarillo;
+}
+
+.prin {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../imagen/m10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subt2 {
+    @include tipo;
+    color: white;
+    float: right;
+}
+
+*::selection {
+    background: $amarillo;
+    color: $azul;
+}
+
+.lredes {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+}
+
+.lsocial {
+    background: $amarillo;
+    height: 98vh;
+    @include linea;
+    position: absolute;
+    right: -5px;
+
+}
+
+
+.lsocial3 {
+    background: $azul;
+    @include linea;
+    height: 113.6vh;
+    position: absolute;
+    right: -5px;
+}
+
+
+.tri {
+    background: url(../imagen/ic.png);
+    width: 94px;
+    height: 94px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+}
+
+.ic {
+    color: $amarillo;
+}
+
+.f1 {
+    position: fixed;
+    top: 8.8em;
+    right: 0.1px;
+}
+
+.f2 {
+    position: fixed;
+    top: 12.5em;
+    right: 0.1px;
+}
+
+.f3 {
+    position: fixed;
+    top: 16.1em;
+    right: 0.1px;
+}
+
+.ti {
+    @include tipo;
+    color: $amarillo;
+    width: 190vh;
+    position: absolute;
+    text-align: right;
+    padding-right: 6vh;
+    font-size: 5em;
+}
+
+.d {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mtt {
+    margin-top: -265px;
+}
+
+.cartas {
+    width: 85%;
+}
+
+.seccion {
+    border-radius: 5%;
+    @include bglight;
+    padding: 25px;
+    position: fixed;
+    right: 20vh;
+    top: 16vh;
+}
+
+.rapido {
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+
+.rapido:hover {
+    scale: 0.9;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.imagen:hover {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.rec {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+
+}
+
+.paga {
+    margin-top: 10vh;
+    margin-left: 2vh;
+}
+
+.vacio {
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 7px;
+    background: $amarillo;
+}
+
+.recetas {
+    // background:#f9fbfc;
+    background: url(../imagen/m13.png);
+    background-size: cover;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.registrar {
+    height: 100vh;
+    border-style: solid;
+    border-top-color: $azul;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: $amarillo;
+    border-width: 25px;
+    background: $azul;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    @include bglight;
+    border-radius: 5%;
+    padding: 25px;
+    margin-top: 10vh;
+    margin-left: 25px;
+}
+
+.ta {
+    text-align: center;
+}
+
+.titulo {
+    @include tipo;
+}
+
+.ma {
+    margin: auto;
+}
+
+.parte1,
+.parte2,
+.parte3 {
+    display: flex;
+}
+
+.yo {
+    @include bgdark;
+    padding: 10px;
+}
+
+.opcionesr {
+    display: flex;
+    background: $azul;
+    padding: 1vh;
+    align-items: center;
+    justify-content: center;
+    @include bajor;
+    border-bottom-color: $amarillo;
+    border-width: 15px;
+    margin: auto;
+    position: fixed;
+    bottom: 0.1px;
+    width: 100%;
+    display: none;
+
+    a {
+        padding-inline: 7px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+}
+
+.letra {
+    font-size: 3em;
+}
+
+.resp{
+    justify-content: right;
+    margin-right: 85px;
+    padding-bottom: 20px;
+    margin-top: -50px;
+}
+
+
+.marg {
+    margin: 1px;
+}
+
+.tipo{
+    @include tipo;
+}

@@ -1,0 +1,70 @@
+$azul:#254f97;
+$amarillo:#fad13d;
+$blanco:#fbfbfb;
+
+@mixin hw {
+    height: 8vh;
+    width: 2vh;
+    margin-inline: 0.5vh;
+}
+
+@mixin tipo {
+    font-family: 'Noto Serif', serif;
+}
+
+@mixin titulo {
+    font: 4rem sans-serif;
+}
+
+@mixin subtitulo {
+    font: 2.5rem sans-serif;
+}
+
+@mixin seccion {
+    font: 2rem sans-serif;
+}
+
+@mixin bajo {
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+@mixin sombra {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@mixin t1 {
+    width: 145px;
+    height: 218px;
+}
+
+@mixin t2 {
+    width: 270px;
+    height: 180px;
+}
+
+@mixin t3 {
+    width: 313px;
+    height: 161px;
+}
+
+@mixin linea {
+    padding: 0.6vh;
+    width: 0.1vh;
+    height: 100vh;
+    float: right;
+    margin-right: 3em;
+    @include sombra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin bajor {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

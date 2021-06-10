@@ -1,0 +1,322 @@
+@import 'variables';
+@import 'colores';
+
+
+@media screen and (max-width: 800px) {
+
+    .menu {
+        display: none;
+    }
+
+    .opcionesr {
+        display: block;
+        display: flex;
+    }
+
+    .lsocial3,
+    .lsocial {
+        display: none;
+    }
+
+    .f1 {
+        top: 1vh;
+        right: 30vh;
+
+    }
+
+    .f2 {
+        top: 1vh;
+        right: 15vh;
+    }
+
+    .f3 {
+        top: 1vh;
+
+    }
+
+    .seccion {
+        position: static;
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .ti {
+        margin-top: 1.5em;
+        width: 36vh;
+        font-size: 4em;
+        margin-left: 60vh;
+    }
+
+    .rec {
+        grid-template-columns: repeat(3, 230px);
+        margin-left: 1em;
+    }
+
+
+    .imagen {
+        width: 150px;
+        height: 150px;
+    }
+
+    .vacio {
+        width: 150px;
+        height: 150px;
+    }
+
+    .letra {
+        font-size: 2em;
+    }
+
+    .reg {
+        width: 70%;
+        margin: auto;
+        margin-top: 1em;
+
+    }
+
+    .top {
+        margin-top: 1em;
+    }
+
+    .registrar {
+        height: 130vh;
+    }
+
+    .b {
+        border-style: solid;
+    }
+
+    .paga {
+        width: 75%;
+    }
+
+    .bienvenida {
+        flex-direction: column;
+        width: 100%;
+        height: 85vh;
+    }
+
+    .frase {
+        width: 100%;
+        border: none;
+        margin: 0;
+        font-size: 25px;
+        background: #343a408c;
+    }
+
+    .arina {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 40vh;
+        height: 40vh;
+    }
+
+    .articulo {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .linea3 {
+        height: 20vh;
+    }
+
+    .tr {
+        margin-right: 55px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .lateral {
+        background: url(../imagen/lateralr.png);
+        width: 100%;
+        height: 90vh;
+        margin-top: 90px;
+    }
+
+    .li1 {
+        margin-top: 150px;
+    }
+
+    .li2 {
+        margin-bottom: -100px;
+    }
+
+    .resp {
+        justify-content: center;
+        margin: 15px;
+    }
+
+
+    .desayuno {
+        grid-template-columns: repeat(2, 300px);
+        width: 129%;
+        margin-left: -75px;
+    }
+
+    .subt{
+        color: $amarillo;
+    }
+
+    .menuo{
+        height: 125vh;
+    }
+
+
+}
+
+@media all and (max-width: 600px) {
+
+    .menu {
+        display: none;
+    }
+
+    .opcionesr {
+        display: block;
+        display: flex;
+    }
+
+    .lsocial3,
+    .lsocial {
+        display: none;
+    }
+
+    .f1 {
+        top: 1vh;
+        right: 30vh;
+
+    }
+
+    .f2 {
+        top: 1vh;
+        right: 15vh;
+    }
+
+    .f3 {
+        top: 1vh;
+
+    }
+
+    .seccion {
+        position: static;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .ti {
+        margin-top: 1.5em;
+        font-size: 3em;
+        // border-style: solid;
+        margin-left: 200px;
+    }
+
+    .rec {
+        grid-template-columns: repeat(2, 230px);
+        margin-left: 1em;
+    }
+
+
+    .imagen {
+        width: 150px;
+        height: 150px;
+    }
+
+    .vacio {
+        width: 150px;
+        height: 150px;
+    }
+
+    .letra {
+        font-size: 2em;
+    }
+
+    .reg {
+        width: 80%;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    .top {
+        margin-top: 1em;
+    }
+
+    .registrar {
+        height: 140vh;
+    }
+
+    .b {
+        border-style: solid;
+    }
+
+    .paga {
+        width: 75%;
+    }
+
+    .bienvenida {
+        flex-direction: column;
+        width: 100%;
+        height: 85vh;
+    }
+
+    .frase {
+        width: 100%;
+        border: none;
+        margin: 0;
+        font-size: 25px;
+        background: #343a408c;
+    }
+
+    .arina {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 40vh;
+        height: 40vh;
+    }
+
+    .articulo {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .linea3 {
+        height: 40vh;
+    }
+
+    .tr {
+        margin-right: 55px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .lateral {
+        background: url(../imagen/lateralr.png);
+        width: 100%;
+        height: 90vh;
+        margin-top: 90px;
+    }
+
+    .li1 {
+        margin-top: 150px;
+    }
+
+    .li2 {
+        margin-bottom: -100px;
+    }
+
+    .resp {
+        justify-content: center;
+        margin: 15px;
+    }
+
+
+    .desayuno {
+        grid-template-columns: repeat(1, 300px);
+
+    }
+
+    .tab-pane{
+    margin-left: 80px;
+    }
+}
+
